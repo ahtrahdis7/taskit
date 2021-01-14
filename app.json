@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "taskit-expo",
-    "slug": "taskit-expo",
+    "name": "taskit",
+    "slug": "taskit",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,13 +17,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.iamcool7.taskit"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.iamcool7.taskit"
     },
     "web": {
       "favicon": "./assets/icon.png"
