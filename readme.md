@@ -1,7 +1,7 @@
 > With a view in mind the difficulties elderly face while using smartphones, this app wishes to make it a little less difficult. Let's see how long we can get with it ...
 
 ---
-I just put on a random name as it will accomplishing certain specific tasks, hence, `task-it`.
+I just put on a random name as it will accomplishing certain tasks, hence, `task-it`.
 <p align="center"> <img src="https://user-images.githubusercontent.com/44672399/104556499-b7301780-5665-11eb-99d7-f2e78dd95a20.png" height="500" width="500"> </img></p>
 
 
@@ -33,7 +33,7 @@ I just put on a random name as it will accomplishing certain specific tasks, hen
 
 1. Download expo SDK [<a href="https://docs.expo.io">Here</a>]
 2. Clone this repository `git clone https://github.com/ahtrahdis7/taskit.git`
-3. install <strong> expo app </strong> on your phone.
+3. Install <strong> expo app </strong> on your phone.
 3. Follow the below steps to start the development server.
 
     ```
