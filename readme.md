@@ -21,6 +21,12 @@ I just put on a random name as it will accomplishing certain tasks, hence, `task
 <a style="margin:70px" href="https://reactnavigation.org/">
     <img src="https://reactnavigation.org/img/spiro.svg" height="100" alt="navigation">
 </a>
+
+<a style="margin:70px" href="https://nozbe.github.io/WatermelonDB/">
+    <img src="https://raw.githubusercontent.com/Nozbe/WatermelonDB/master/assets/logo-horizontal2.png" height="100" alt="watermelon db">
+</a>
+
+
 <!-- <a style="margin-left:50px" href="https://redux.js.org/"><img src="https://seeklogo.com/images/R/redux-logo-9CA6836C12-seeklogo.com.png" height="100" alt="redux"></a> -->
 
 <!-- <a style="margin-left:50px" href="https://jestjs.io/"><img src="https://seeklogo.com/images/J/jest-logo-F9901EBBF7-seeklogo.com.png" height="100" alt="redux"></a> -->
