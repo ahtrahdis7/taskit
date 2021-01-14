@@ -1,21 +1,37 @@
-import { StatusBar } from 'expo-status-bar';
+import 'react-native-gesture-handler';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { NavigationContainer, DarkTheme } from '@react-navigation/native';
+import { useFonts } from 'expo-font';
+import AppLoading from 'expo-app-loading';
+// import {
+// //   SafeAreaView,
+// //   StyleSheet,
+//   // ScrollView,
+//   View,
+//   // Text,
+// //   StatusBar,
+// } from 'react-native';
+
+import Taskit from './src/TaskitNavigator'
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+      let [ fontsLoaded ] = useFonts({
+        'ComicNeue-Bold': require('./assets/fonts/ComicNeue-Bold.ttf'),
+        'ComicNeue-Light': require('./assets/fonts/ComicNeue-Light.ttf'),
+        'ComicNeue-Italic': require('./assets/fonts/ComicNeue-Italic.ttf'),
+        'ComicNeue-Regular': require('./assets/fonts/ComicNeue-Regular.ttf'),
+      });
+
+      if (!fontsLoaded) {
+        return <AppLoading />;
+      } else {
+        return (
+            <NavigationContainer>
+                <Taskit />
+            </NavigationContainer>
+        )
+      }
+      
+};
+
