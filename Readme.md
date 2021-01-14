@@ -29,9 +29,9 @@ I just put on a random name as it will accomplishing certain tasks, hence, `task
 </a>
 
 
-<a style="margin-left:50px"><img src="https://cdn4.iconfinder.com/data/icons/logos-3/228/android-512.png" height="100" alt="android"></a>
+<!-- <a style="margin-left:50px"><img src="https://cdn4.iconfinder.com/data/icons/logos-3/228/android-512.png" height="100" alt="android"></a> -->
 
-<!-- <a style="margin-left:50px" href="https://jestjs.io/"><img src="https://seeklogo.com/images/J/jest-logo-F9901EBBF7-seeklogo.com.png" height="100" alt="redux"></a> -->
+<a style="margin-left:50px" href="https://reactnative.dev"><img src="https://www.inovex.de/blog/wp-content/uploads/2018/03/react-native.png" height="100" alt="react native"></a>
 
 </div>
 
